@@ -28,8 +28,8 @@
         <framework src="com.google.android.gms:play-services-plus:$ANDROID_PLAY_SERVICES_PLUS_VERSION" />
 
         <preference name="APP_ID" />
-        <preference name="ANDROID_PLAY_SERVICES_GAMES_VERSION" default="+"/>
-        <preference name="ANDROID_PLAY_SERVICES_PLUS_VERSION" default="+"/>
+        <preference name="ANDROID_PLAY_SERVICES_GAMES_VERSION" default="16.+"/>
+        <preference name="ANDROID_PLAY_SERVICES_PLUS_VERSION" default="16.+"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="PlayGamesServices">
